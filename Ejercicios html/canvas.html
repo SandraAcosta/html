@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+<aside>
+<figure>
+<img src="logo_udistrital.png" alt="logo">
+<figcaption> Logo UD </figcaption>
+</figure>
+</aside> 
+ <head>      
+ <title>Sample page</title>   
+ <meta charset="UTF-8"> 
+<meta name="description" content="Python básico">
+<meta name="keywords" content="python, pygame, programación">
+<meta name="author" content="Alejandro Paolo Daza"> 
+ </head> 
+<body> 
+<nav>
+<a href="hola.html">hola</a>
+<a href="otro.html">otro</a>
+<a href="hola5.html">html 5</a>
+</nav>
+<script>
+function draw(){
+  var ctx = document.querySelector("canvas").getContext("2d");
+  
+  ctx.fillStyle = "#ffff00";
+  ctx.fillRect(10, 10, 50, 50);
+  
+  var my_gradient=ctx.createLinearGradient(0,0,0,170);
+  my_gradient.addColorStop(0,"navy");
+  my_gradient.addColorStop(1,"white");
+  ctx.fillStyle=my_gradient;
+  ctx.fillRect(40,40,70,70);
+}
+window.onload = draw;
+</script>
+<canvas></canvas>
+
+
+</body>
+</html>

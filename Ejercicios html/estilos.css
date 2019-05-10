@@ -1,0 +1,12 @@
+body{
+color: #000;
+font-family: Georgia, "Times New Roman", serif;
+font-size: 20px;
+}
+h1 {
+    color: navy;
+	background-color: green;
+}
+p {
+	padding: 2em;	
+}
